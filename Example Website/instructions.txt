@@ -1,0 +1,6 @@
+this index.html will only recognize a p5.js sketch if it is named "sketch.js"
+
+DOES NOT WORK LIKE THIS IF HTML FILE HAS OTHER MEDIA - MUST HOST LOCAL SERVER TO PROPERLY DISPLAY
+1. Go to CMD and open directory where project is located
+2. Type "python3 -m http.server"
+3. Go to "http://localhost:xxxx" in browser, where xxxx is the port number. The command from #2 will say port number, but by default it is 8000.
